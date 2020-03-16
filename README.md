@@ -4,11 +4,15 @@
 
 ## Overview
 
-Traccar Client is an Android GPS tracking application. It can work with Traccar open source server software.
+Covid19.tn client is a clone of Traccar Client which is an Android GPS tracking application. It can work with Traccar open source server software.
 
 ## Team
 
+Original Author :
 - Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
+
+Adapted by:
+- Creaworld, in behalf of iWatch Tunisia.
 
 ## License
 
@@ -25,3 +29,7 @@ Traccar Client is an Android GPS tracking application. It can work with Traccar 
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+## Description
+
+Le projet suivant est une adaptation de l'application Android native de tracking "Traccar", modifiée afin d'aider dans le tracking du Covid19.
