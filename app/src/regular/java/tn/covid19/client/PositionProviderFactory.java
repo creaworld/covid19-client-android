@@ -16,6 +16,8 @@
 package tn.covid19.client;
 
 import android.content.Context;
+import tn.covid19.client.legacy.AndroidPositionProvider;
+import tn.covid19.client.legacy.PositionProvider;
 
 public class PositionProviderFactory {
 

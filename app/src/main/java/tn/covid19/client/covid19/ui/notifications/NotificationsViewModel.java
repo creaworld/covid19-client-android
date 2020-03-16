@@ -1,4 +1,4 @@
-package tn.covid19.client.ui.notifications;
+package tn.covid19.client.covid19.ui.notifications;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

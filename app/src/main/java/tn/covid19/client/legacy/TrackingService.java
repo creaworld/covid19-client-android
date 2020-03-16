@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tn.covid19.client;
+package tn.covid19.client.legacy;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -30,6 +30,8 @@ import androidx.core.content.ContextCompat;
 
 import android.os.PowerManager;
 import android.util.Log;
+import tn.covid19.client.BuildConfig;
+import tn.covid19.client.R;
 
 public class TrackingService extends Service {
 

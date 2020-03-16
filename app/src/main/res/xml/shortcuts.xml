@@ -12,7 +12,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="tn.covid19.client"
-            android:targetClass="tn.covid19.client.ShortcutActivity">
+            android:targetClass="tn.covid19.client.legacy.ShortcutActivity">
             <extra
                 android:name="action"
                 android:value="start" />
@@ -27,7 +27,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="tn.covid19.client"
-            android:targetClass="tn.covid19.client.ShortcutActivity">
+            android:targetClass="tn.covid19.client.legacy.ShortcutActivity">
             <extra
                 android:name="action"
                 android:value="stop" />
@@ -42,7 +42,7 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:targetPackage="tn.covid19.client"
-            android:targetClass="tn.covid19.client.ShortcutActivity">
+            android:targetClass="tn.covid19.client.legacy.ShortcutActivity">
             <extra
                 android:name="action"
                 android:value="sos" />

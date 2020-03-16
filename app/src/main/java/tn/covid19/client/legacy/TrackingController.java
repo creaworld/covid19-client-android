@@ -13,13 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tn.covid19.client;
+package tn.covid19.client.legacy;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
+import tn.covid19.client.PositionProviderFactory;
+import tn.covid19.client.R;
 
 public class TrackingController implements PositionProvider.PositionListener, NetworkManager.NetworkHandler {
 

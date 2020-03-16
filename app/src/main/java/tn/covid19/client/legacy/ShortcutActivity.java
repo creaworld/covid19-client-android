@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tn.covid19.client;
+package tn.covid19.client.legacy;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -32,6 +32,8 @@ import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.ShortcutInfoCompat;
 import androidx.core.content.pm.ShortcutManagerCompat;
 import androidx.core.graphics.drawable.IconCompat;
+import tn.covid19.client.PositionProviderFactory;
+import tn.covid19.client.R;
 
 public class ShortcutActivity extends AppCompatActivity {
 

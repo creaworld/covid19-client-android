@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tn.covid19.client;
+package tn.covid19.client.legacy;
 
 import android.annotation.TargetApi;
 import android.app.Application;
@@ -26,6 +26,7 @@ import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.preference.PreferenceManager;
+import tn.covid19.client.R;
 
 public class MainApplication extends Application {
 

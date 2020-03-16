@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tn.covid19.client;
+package tn.covid19.client.legacy;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -28,6 +28,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import tn.covid19.client.R;
 
 public class StatusActivity extends AppCompatActivity {
 

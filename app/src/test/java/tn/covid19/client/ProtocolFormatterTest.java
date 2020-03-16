@@ -8,6 +8,8 @@ import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 
 import java.util.Date;
+import tn.covid19.client.legacy.Position;
+import tn.covid19.client.legacy.ProtocolFormatter;
 
 import static org.junit.Assert.assertEquals;
 

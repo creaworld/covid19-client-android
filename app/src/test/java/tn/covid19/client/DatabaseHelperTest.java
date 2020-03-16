@@ -9,6 +9,8 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 
 import java.util.Date;
+import tn.covid19.client.legacy.DatabaseHelper;
+import tn.covid19.client.legacy.Position;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
