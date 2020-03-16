@@ -1,5 +1,5 @@
 /*
- * Copyright 2013 - 2017 Anton Tananaev (anton@traccar.org)
+ * Copyright 2015 Anton Tananaev (anton@traccar.org)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,20 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.traccar.client;
+package tn.covid19.client;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
-public class AutostartReceiver extends WakefulBroadcastReceiver {
-    
+public class DialLaunchReceiver extends BroadcastReceiver {
+
+    private static final String LAUNCHER_NUMBER = "8722227"; // TRACCAR
+
     @Override
     public void onReceive(Context context, Intent intent) {
-        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
-        if (sharedPreferences.getBoolean(MainFragment.KEY_STATUS, false)) {
-            startWakefulForegroundService(context, new Intent(context, TrackingService.class));
+        String phoneNumber = intent.getStringExtra(Intent.EXTRA_PHONE_NUMBER);
+        if (phoneNumber.equals(LAUNCHER_NUMBER)) {
+            setResultData(null);
+            Intent appIntent = new Intent(context, MainActivity.class);
+            appIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(appIntent);
         }
     }
 

@@ -4,9 +4,9 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId 'org.traccar.client'
+        applicationId 'tn.covid19.client'
         buildConfigField 'boolean', 'HIDDEN_APP', 'false'
-        minSdkVersion 16
+        minSdkVersion 15
         targetSdkVersion 29
         versionCode 62
         versionName '6.1'
@@ -23,7 +23,7 @@ android {
         }
         google
         hidden {
-            applicationId 'org.traccar.client.hidden'
+            applicationId 'tn.covid19.client.hidden'
             buildConfigField 'boolean', 'HIDDEN_APP', 'true'
         }
     }
