@@ -70,4 +70,6 @@
   <string name="second_fragment_label">Second Fragment</string>
   <string name="next">Next</string>
   <string name="previous">Previous</string>
+  <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
+  <string name="button_join">Commencer</string>
 </resources>
