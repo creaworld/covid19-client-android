@@ -22,4 +22,16 @@
       android:name="tn.covid19.client.covid19.ui.notifications.NotificationsFragment"
       android:label="@string/title_notifications"
       tools:layout="@layout/fragment_notifications" />
+
+  <fragment
+      android:id="@+id/navigation_help"
+      android:name="tn.covid19.client.covid19.ui.help.HelpFragment"
+      android:label="fragment_help"
+      tools:layout="@layout/fragment_help" />
+
+  <fragment
+      android:id="@+id/navigation_visio"
+      android:name="tn.covid19.client.covid19.ui.visio.VisioFragment"
+      android:label="fragment_visio"
+      tools:layout="@layout/fragment_visio" />
 </navigation>

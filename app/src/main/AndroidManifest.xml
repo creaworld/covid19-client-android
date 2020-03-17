@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".legacy.CovidActivity"
+            android:name=".covid19.ui.CovidActivity"
             android:label="@string/title_activity_covid">
         </activity>
 
@@ -33,7 +33,7 @@
 
         <activity-alias
             android:name=".Launcher"
-            android:targetActivity=".legacy.CovidActivity">
+            android:targetActivity=".covid19.ui.CovidActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
