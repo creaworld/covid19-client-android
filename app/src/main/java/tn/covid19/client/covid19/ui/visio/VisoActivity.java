@@ -8,6 +8,7 @@ import org.jitsi.meet.sdk.JitsiMeetConferenceOptions;
 import tn.covid19.client.R;
 
 import static org.jitsi.meet.sdk.JitsiMeet.setDefaultConferenceOptions;
+import static tn.covid19.client.covid19.ui.visio.VisioFragment.CHANNEL_ID;
 
 public class VisoActivity extends JitsiMeetActivity {
 
@@ -18,7 +19,7 @@ public class VisoActivity extends JitsiMeetActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_viso);
 
-    String channelName = getIntent().getStringExtra("channelName");
+    String channelName = getIntent().getStringExtra(CHANNEL_ID);
     URL serverURL;
     try {
       serverURL = new URL(URL);
@@ -38,10 +39,5 @@ public class VisoActivity extends JitsiMeetActivity {
     // Launch the new activity with the given options. The launch() method takes care
     // of creating the required Intent and passing the options.
     launch(this, options);
-  }
-
-  @Override
-  public void onDestroy() {
-    super.onDestroy();
   }
 }

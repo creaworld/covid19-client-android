@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="tn.covid19.client">
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <uses-feature android:name="android.hardware.location.network" />
     <uses-feature android:name="android.hardware.location.gps" />
@@ -27,10 +29,11 @@
         <activity
             android:name=".covid19.ui.visio.VisoActivity"
             android:label="@string/title_activity_viso"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".covid19.ui.CovidActivity"
-            android:label="@string/title_activity_covid"></activity>
+            android:label="@string/title_activity_covid"/>
 
         <activity-alias
             android:name=".Launcher"

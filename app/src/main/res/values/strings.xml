@@ -54,13 +54,20 @@
 
   <string name="title_notifications">Notifications</string>
   <string name="hello_blank_fragment">Hello blank fragment</string>
+
+  <!--new activity !-->
+  <string name="start_service">Lancer le service: </string>
+  <string name="votre_id">Votre Id est: </string>
+  <string name="contenu">Bienvenue dans le compagnon de l\'isolement sanitaire.Cette application vous
+    accompagne et vous aide à accéder rapidement aux services et ressources mises à votre
+    disposition.Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.
+    Vous pouvez consulter la chaine vidéo en streaming.
+    Vous pouvez commencer une conversation en visioconférence.
+    Vous pouvez passer une réclamation.</string>
   <string name="title_activity_viso">VisoActivity</string>
   <!-- Strings used for fragments for navigation -->
   <string name="first_fragment_label">First Fragment</string>
   <string name="second_fragment_label">Second Fragment</string>
   <string name="next">Next</string>
   <string name="previous">Previous</string>
-
-  <string name="hello_first_fragment">Hello first fragment</string>
-  <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

@@ -33,5 +33,5 @@
       android:id="@+id/navigation_visio"
       android:name="tn.covid19.client.covid19.ui.visio.VisioFragment"
       android:label="@string/title_visio"
-      tools:layout="@layout/fragment_visio" />
+      tools:layout="@layout/visio_fragment" />
 </navigation>
