@@ -62,6 +62,19 @@
             </intent-filter>
         </activity>
 
+        <activity-alias
+            android:label="@string/app_name"
+            android:name=".Launcher"
+            android:targetActivity=".covid19.ui.CovidActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
         <meta-data
             android:name="google_analytics_adid_collection_enabled"
             android:value="false" />

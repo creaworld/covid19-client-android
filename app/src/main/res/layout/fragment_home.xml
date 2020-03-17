@@ -3,13 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:orientation="vertical"
     tools:context=".covid19.ui.home.HomeFragment"
     >
 
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="16dp"
+      android:layout_marginLeft="16dp"
+      android:orientation="horizontal"
+      >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/slogan"
+        />
+
+  </RelativeLayout>
+
   <LinearLayout
       android:layout_width="match_parent"
+      android:layout_margin="16dp"
       android:layout_height="100dp"
       android:background="@drawable/background_rounded_task_item"
       android:orientation="vertical"
@@ -36,17 +59,16 @@
           android:textStyle="bold"
           />
 
-      <Switch
+      <androidx.appcompat.widget.SwitchCompat
           android:id="@+id/serviceSwitch"
-          android:layout_width="16dp"
-          android:layout_height="16dp"
+          android:layout_width="32dp"
+          android:layout_height="32dp"
           android:layout_marginLeft="16dp"
           android:layout_marginStart="16dp"
           android:thumbTint="@android:color/white"
           android:trackTint="@android:color/white"
           />
     </LinearLayout>
-
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -80,6 +102,7 @@
   </LinearLayout>
 
   <TextView
+      android:layout_margin="16dp"
       android:id="@+id/homeContentTextView"
       android:layout_marginTop="32dp"
       android:layout_width="wrap_content"
