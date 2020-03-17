@@ -10,9 +10,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
-import android.widget.Switch;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.preference.PreferenceManager;
@@ -28,7 +28,7 @@ public class HomeFragment extends Fragment {
   public static final String KEY_DEVICE = "id";
   public static final String KEY_STATUS = "status";
   TextView idTextView;
-  Switch serviceSwitch;
+  SwitchCompat serviceSwitch;
 
   private static final int PERMISSIONS_REQUEST_LOCATION = 2;
 
