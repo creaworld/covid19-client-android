@@ -3,21 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="tn.covid19.client">
     <uses-permission android:name="android.permission.INTERNET" />
-
-
-    <uses-feature android:name="android.hardware.location.network" />
-    <uses-feature android:name="android.hardware.location.gps" />
-
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
-
     <application
         android:name=".legacy.MainApplication"
         android:allowBackup="true"
@@ -33,22 +18,8 @@
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".covid19.ui.CovidActivity"
-            android:label="@string/title_activity_covid"/>
-
-        <activity-alias
-            android:name=".Launcher"
-            android:targetActivity=".covid19.ui.CovidActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-            <meta-data
-                android:name="android.app.shortcuts"
-                android:resource="@xml/shortcuts" />
-        </activity-alias>
-
+            android:label="@string/title_activity_covid">
+        </activity>
         <activity
             android:name=".legacy.MainActivity"
             android:launchMode="singleTask" />
@@ -61,7 +32,6 @@
                 <action android:name="android.intent.action.CREATE_SHORTCUT" />
             </intent-filter>
         </activity>
-
         <activity-alias
             android:label="@string/app_name"
             android:name=".Launcher"
@@ -70,7 +40,6 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <meta-data
                 android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
@@ -78,7 +47,6 @@
         <meta-data
             android:name="google_analytics_adid_collection_enabled"
             android:value="false" />
-
         <receiver android:name=".legacy.AutostartReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -87,11 +55,21 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
         </receiver>
-
         <service android:name=".legacy.TrackingService$HideNotificationService" />
         <service
             android:name=".legacy.TrackingService"
             android:foregroundServiceType="location" />
     </application>
-
+    <uses-feature android:name="android.hardware.location.network" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
 </manifest>
+
