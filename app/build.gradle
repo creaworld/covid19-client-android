@@ -3,10 +3,15 @@ apply plugin: 'com.android.application'
 android {
   compileSdkVersion 29
 
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+
   defaultConfig {
     applicationId 'tn.covid19.client'
     buildConfigField 'boolean', 'HIDDEN_APP', 'false'
-    minSdkVersion 15
+    minSdkVersion 21
     targetSdkVersion 29
     versionCode 62
     versionName '6.1'
@@ -44,11 +49,15 @@ dependencies {
   implementation 'androidx.navigation:navigation-ui:2.2.1'
   implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
   implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+  implementation 'androidx.appcompat:appcompat:1.1.0'
   testImplementation 'junit:junit:4.13'
   testImplementation 'org.robolectric:robolectric:4.1'
   googleImplementation 'com.google.firebase:firebase-core:17.2.2'
   googleImplementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
   googleImplementation 'com.google.android.gms:play-services-location:17.0.0'
+
+  // Jitsi Meet
+  implementation('org.jitsi.react:jitsi-meet-sdk:2.5.1') { transitive = true }
 }
 
 if (getGradle().getStartParameter().getTaskRequests().toString().contains('Google')) {
