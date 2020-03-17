@@ -34,6 +34,7 @@
         </activity>
 
         <activity-alias
+            android:label="@string/app_name"
             android:name=".Launcher"
             android:targetActivity=".covid19.ui.CovidActivity">
             <intent-filter>
