@@ -39,19 +39,7 @@ public class DashboardFragment extends Fragment {
     webViewSettings.setDomStorageEnabled(true);
     mWebView.setWebViewClient(new WebViewClient());
     mWebView.setWebChromeClient(new WebChromeClient());
-
     mWebView.loadUrl("http://covid-19.tn/");
-
-
-    final TextView textView = root.findViewById(R.id.text_dashboard);
-   /* dashboardViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-      @Override
-      public void onChanged(@Nullable String s) {
-        textView.setText(s);
-      }
-    });*/
     return root;
   }
-
-
 }
