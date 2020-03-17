@@ -46,6 +46,12 @@
   <string name="title_activity_covid">CovidActivity</string>
   <string name="title_home">Home</string>
   <string name="title_dashboard">Dashboard</string>
+  <string name="title_www">WWW</string>
+  <string name="title_tv">TV</string>
+  <string name="title_visio">Visio</string>
+  <string name="title_help">Help</string>
+
+
   <string name="title_notifications">Notifications</string>
   <string name="hello_blank_fragment">Hello blank fragment</string>
 
