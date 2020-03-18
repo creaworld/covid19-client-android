@@ -1,14 +1,14 @@
-package tn.covid19.client.covid19.ui.notifications;
+package tn.covid19.client.covid19.ui.livetv;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class NotificationsViewModel extends ViewModel {
+public class LiveTVViewModel extends ViewModel {
 
   private MutableLiveData<String> mText;
 
-  public NotificationsViewModel() {
+  public LiveTVViewModel() {
     mText = new MutableLiveData<>();
     mText.setValue("This is notifications fragment");
   }

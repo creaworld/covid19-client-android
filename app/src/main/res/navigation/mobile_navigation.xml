@@ -13,15 +13,15 @@
 
   <fragment
       android:id="@+id/navigation_dashboard"
-      android:name="tn.covid19.client.covid19.ui.dashboard.DashboardFragment"
+      android:name="tn.covid19.client.covid19.ui.ministrywebsite.MinistryWebsiteFragment"
       android:label="@string/title_dashboard"
-      tools:layout="@layout/fragment_dashboard" />
+      tools:layout="@layout/fragment_ministrywebsite" />
 
   <fragment
       android:id="@+id/navigation_notifications"
-      android:name="tn.covid19.client.covid19.ui.notifications.NotificationsFragment"
+      android:name="tn.covid19.client.covid19.ui.livetv.LiveTVFragment"
       android:label="@string/title_notifications"
-      tools:layout="@layout/fragment_notifications" />
+      tools:layout="@layout/fragment_livetv" />
 
   <fragment
       android:id="@+id/navigation_help"

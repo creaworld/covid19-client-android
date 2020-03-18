@@ -51,12 +51,12 @@
   <string name="title_visio">Visio</string>
   <string name="title_help">Aide</string>
 
-  <string name="title_notifications">Notifications</string>
+  <string name="title_notifications">Le direct</string>
   <string name="hello_blank_fragment">Hello blank fragment</string>
 
   <!--new activity !-->
   <string name="start_service">Lancer le service: </string>
-  <string name="votre_id">Votre Id est: </string>
+  <string name="votre_id">Votre numéro identifiant: </string>
   <string name="contenu">Bienvenue dans le compagnon de l\'isolement sanitaire.Cette application vous
     accompagne et vous aide à accéder rapidement aux services et ressources mises à votre
     disposition.Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.

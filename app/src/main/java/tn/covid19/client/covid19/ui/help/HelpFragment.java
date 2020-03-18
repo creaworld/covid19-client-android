@@ -13,6 +13,8 @@ import tn.covid19.client.R;
 
 public class HelpFragment extends Fragment {
 
+  public static final String HELP_URL = "https://help.covid19.tn/";
+
   WebView mWebView ;
 
   public HelpFragment() {
@@ -39,7 +41,7 @@ public class HelpFragment extends Fragment {
     webViewSettings.setDomStorageEnabled(true);
     mWebView.setWebViewClient(new WebViewClient());
     mWebView.setWebChromeClient(new WebChromeClient());
-    mWebView.loadUrl("http://covid-19.tn/");
+    mWebView.loadUrl(HELP_URL);
     return root;
   }
 }
