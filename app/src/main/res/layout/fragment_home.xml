@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".covid19.ui.home.HomeFragment"
     >
+
 
   <RelativeLayout
       android:layout_width="match_parent"
@@ -17,18 +19,39 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="70dp"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
         android:src="@drawable/logo"
         />
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="70dp"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
         android:src="@drawable/slogan"
         />
 
   </RelativeLayout>
+
+    <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="100dp"
+      android:layout_height="82dp"
+        android:layout_gravity="center"
+      android:src="@drawable/logo_0w2" />
+
+
+  <TextView
+      android:id="@+id/homeContentTextView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginHorizontal="16dp"
+      android:layout_marginTop="20dp"
+      android:lineSpacingExtra="8dp"
+      android:padding="18dp"
+      android:text="@string/contenu_titre"
+      android:textColor="@android:color/black"
+      android:textSize="16sp"
+      android:textStyle="bold" />
 
   <LinearLayout
       android:layout_width="match_parent"
@@ -101,17 +124,23 @@
   </LinearLayout>
   </LinearLayout>
 
-  <TextView
-      android:layout_margin="16dp"
-      android:id="@+id/homeContentTextView"
-      android:layout_marginTop="32dp"
-      android:layout_width="wrap_content"
-      android:textColor="@android:color/black"
-      android:lineSpacingExtra="8dp"
-      android:textSize="16sp"
-      android:padding="16dp"
-      android:text="@string/contenu"
-      android:textStyle="bold"
-      android:layout_height="wrap_content"/>
+  <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_weight="1"
+
+        android:text="@string/contenu_text" />
+
+
+
+
+  </LinearLayout>
 
 </LinearLayout>

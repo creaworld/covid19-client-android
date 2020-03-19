@@ -54,7 +54,7 @@ public abstract class PositionProvider {
         preferences = PreferenceManager.getDefaultSharedPreferences(context);
 
         deviceId = preferences.getString(MainFragment.KEY_DEVICE, "undefined");
-        interval = Long.parseLong(preferences.getString(MainFragment.KEY_INTERVAL, "600")) * 1000;
+        interval = 10/*Long.parseLong(preferences.getString(MainFragment.KEY_INTERVAL, "10"))*/ * 1000;
         distance = Integer.parseInt(preferences.getString(MainFragment.KEY_DISTANCE, "0"));
         angle = Integer.parseInt(preferences.getString(MainFragment.KEY_ANGLE, "0"));
     }

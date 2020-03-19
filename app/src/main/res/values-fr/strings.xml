@@ -40,4 +40,31 @@
   <string name="hidden_app_name">Paramètres de l\'appareil</string>
   <string name="hidden_alert">Cette application a été cachée. Pour l\'ouvrir à nouveau, composez le 8722227 (TRACCAR)</string>
   <string name="error_msg_invalid_url">S\'il vous plait, entrer un URL http:// ou https:// valide</string>
+
+  <string name="start_service">Lancer le service: </string>
+  <string name="votre_id">Votre numéro identifiant: </string>
+  <string name="contenu_titre">Bienvenue dans le compagnon de l\'isolement sanitaire.</string>
+  <string name="contenu_text1">
+  Cette application vous
+    accompagne et vous aide à accéder rapidement aux services et ressources mises à votre
+    disposition.
+
+  </string><string name="contenu_text2">
+    Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.
+   </string><string name="contenu_text3">
+    Vous pouvez consulter la chaine vidéo en streaming.
+    </string><string name="contenu_text4">
+    Vous pouvez commencer une conversation en visioconférence.
+    </string><string name="contenu_text5">
+    Vous pouvez passer une réclamation.</string>
+
+  <string name="title_activity_viso">VisoActivity</string>
+  <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label">First Fragment</string>
+  <string name="second_fragment_label">Second Fragment</string>
+  <string name="next">Next</string>
+  <string name="previous">Previous</string>
+  <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
+  <string name="button_join">Commencer</string>
+
 </resources>

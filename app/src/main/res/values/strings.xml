@@ -1,74 +1,82 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="app_name">Covid-19 Tunisie</string>
-  <string name="app_logo">Traccar</string>
-  <string name="shortcut_start">Start service</string>
-  <string name="shortcut_stop">Stop service</string>
-  <string name="shortcut_sos">Send SOS</string>
-  <string name="channel_default">Primary Channel</string>
-  <string name="settings_id_title">Device identifier</string>
-  <string name="settings_url_title">Server URL</string>
-  <string name="settings_url_summary">Tracking server URL</string>
-  <string name="settings_interval_title">Frequency</string>
-  <string name="settings_interval_summary">Reporting interval in seconds</string>
-  <string name="settings_distance_title">Distance</string>
-  <string name="settings_distance_summary">Reporting distance in meters</string>
-  <string name="settings_angle_title">Angle</string>
-  <string name="settings_angle_summary">Reporting angle in degrees</string>
-  <string name="settings_status_title">Service status</string>
-  <string name="settings_status_off">Start</string>
-  <string name="settings_status_on">Stop</string>
-  <string name="settings_status_off_summary">Service stopped</string>
-  <string name="settings_status_on_summary">Service running</string>
-  <string name="settings_buffer">Offline buffering</string>
-  <string name="settings_buffer_off_summary">Buffering off</string>
-  <string name="settings_buffer_on_summary">Buffering on</string>
-  <string name="settings_accuracy_title">Location accuracy</string>
-  <string name="settings_accuracy_summary">Desired location accuracy</string>
-  <string name="settings_accuracy_high">High</string>
-  <string name="settings_accuracy_medium">Medium</string>
-  <string name="settings_accuracy_low">Low</string>
-  <string name="settings_foreground_title">Foreground service</string>
-  <string name="settings_foreground_summary">Increase service priority</string>
-  <string name="menu_status">Status</string>
-  <string name="menu_shortcuts">Add shortcuts</string>
-  <string name="menu_clear">Clear</string>
-  <string name="status_service_create">Service started</string>
-  <string name="status_service_destroy">Service stopped</string>
-  <string name="status_send_success">Send successfully</string>
-  <string name="status_send_fail">Send failed</string>
-  <string name="status_location_update">Location update</string>
-  <string name="status_network_online">Network online</string>
-  <string name="status_network_offline">Network offline</string>
-  <string name="hidden_app_name">Device Settings</string>
-  <string name="hidden_alert">The app has been hidden. To open it again please dial 8722227 (TRACCAR).</string>
-  <string name="error_msg_invalid_url">Please enter a valid http:// or https:// URL</string>
-  <string name="title_activity_covid">CovidActivity</string>
-  <string name="title_home">Acceuil</string>
-  <string name="title_dashboard">Site web</string>
-  <string name="title_www">WWW</string>
-  <string name="title_tv">TV</string>
-  <string name="title_visio">Visio</string>
-  <string name="title_help">Aide</string>
+    <string name="app_name">Covid-19 Tunisie</string>
+    <string name="app_logo">Traccar</string>
+    <string name="shortcut_start">Start service</string>
+    <string name="shortcut_stop">Stop service</string>
+    <string name="shortcut_sos">Send SOS</string>
+    <string name="channel_default">Primary Channel</string>
+    <string name="settings_id_title">Device identifier</string>
+    <string name="settings_url_title">Server URL</string>
+    <string name="settings_url_summary">Tracking server URL</string>
+    <string name="settings_interval_title">Frequency</string>
+    <string name="settings_interval_summary">Reporting interval in seconds</string>
+    <string name="settings_distance_title">Distance</string>
+    <string name="settings_distance_summary">Reporting distance in meters</string>
+    <string name="settings_angle_title">Angle</string>
+    <string name="settings_angle_summary">Reporting angle in degrees</string>
+    <string name="settings_status_title">Service status</string>
+    <string name="settings_status_off">Start</string>
+    <string name="settings_status_on">Stop</string>
+    <string name="settings_status_off_summary">Service stopped</string>
+    <string name="settings_status_on_summary">Service running</string>
+    <string name="settings_buffer">Offline buffering</string>
+    <string name="settings_buffer_off_summary">Buffering off</string>
+    <string name="settings_buffer_on_summary">Buffering on</string>
+    <string name="settings_accuracy_title">Location accuracy</string>
+    <string name="settings_accuracy_summary">Desired location accuracy</string>
+    <string name="settings_accuracy_high">High</string>
+    <string name="settings_accuracy_medium">Medium</string>
+    <string name="settings_accuracy_low">Low</string>
+    <string name="settings_foreground_title">Foreground service</string>
+    <string name="settings_foreground_summary">Increase service priority</string>
+    <string name="menu_status">Status</string>
+    <string name="menu_shortcuts">Add shortcuts</string>
+    <string name="menu_clear">Clear</string>
+    <string name="status_service_create">Service started</string>
+    <string name="status_service_destroy">Service stopped</string>
+    <string name="status_send_success">Send successfully</string>
+    <string name="status_send_fail">Send failed</string>
+    <string name="status_location_update">Location update</string>
+    <string name="status_network_online">Network online</string>
+    <string name="status_network_offline">Network offline</string>
+    <string name="hidden_app_name">Device Settings</string>
+    <string name="hidden_alert">The app has been hidden. To open it again please dial 8722227 (TRACCAR).</string>
+    <string name="error_msg_invalid_url">Please enter a valid http:// or https:// URL</string>
+    <string name="title_activity_covid">CovidActivity</string>
+    <string name="title_home">Acceuil</string>
+    <string name="title_dashboard">Site web</string>
+    <string name="title_www">WWW</string>
+    <string name="title_tv">TV</string>
+    <string name="title_visio">Visio</string>
+    <string name="title_help">Aide</string>
 
-  <string name="title_notifications">Le direct</string>
-  <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_notifications">Le direct</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
-  <!--new activity !-->
-  <string name="start_service">Lancer le service: </string>
-  <string name="votre_id">Votre numéro identifiant: </string>
-  <string name="contenu">Bienvenue dans le compagnon de l\'isolement sanitaire.Cette application vous
+    <!--new activity !-->
+    <string name="start_service">Lancer le service: </string>
+    <string name="votre_id">Votre numéro identifiant: </string>
+    <string name="contenu_titre">Bienvenue dans le compagnon de l\'isolement sanitaire.</string>
+    <string name="contenu_text">
+  Cette application vous
     accompagne et vous aide à accéder rapidement aux services et ressources mises à votre
-    disposition.Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.
+    disposition.
+    \n  \n
+    Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.
+    \n  \n
     Vous pouvez consulter la chaine vidéo en streaming.
+    \n  \n
     Vous pouvez commencer une conversation en visioconférence.
+    \n  \n
     Vous pouvez passer une réclamation.</string>
-  <string name="title_activity_viso">VisoActivity</string>
-  <!-- Strings used for fragments for navigation -->
-  <string name="first_fragment_label">First Fragment</string>
-  <string name="second_fragment_label">Second Fragment</string>
-  <string name="next">Next</string>
-  <string name="previous">Previous</string>
-  <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
-  <string name="button_join">Commencer</string>
+
+    <string name="title_activity_viso">VisoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
+    <string name="button_join">Commencer</string>
 </resources>
