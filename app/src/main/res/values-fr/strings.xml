@@ -18,8 +18,8 @@
   <string name="settings_status_title">Statut</string>
   <string name="settings_status_off">Démarrer</string>
   <string name="settings_status_on">Arrêter</string>
-  <string name="settings_status_off_summary">Arrêté</string>
-  <string name="settings_status_on_summary">En marche</string>
+  <string name="settings_status_off_summary">Service arrêté</string>
+  <string name="settings_status_on_summary">Service en marche</string>
   <string name="settings_accuracy_title">Precision de la localisation</string>
   <string name="settings_accuracy_summary">Précision de localisation désirée</string>
   <string name="settings_accuracy_high">Haut</string>
@@ -44,27 +44,35 @@
   <string name="start_service">Lancer le service: </string>
   <string name="votre_id">Votre numéro identifiant: </string>
   <string name="contenu_titre">Bienvenue dans le compagnon de l\'isolement sanitaire.</string>
-  <string name="contenu_text1">
+  <string name="contenu_text">
   Cette application vous
     accompagne et vous aide à accéder rapidement aux services et ressources mises à votre
     disposition.
-
-  </string><string name="contenu_text2">
+    \n  \n
     Vous pouvez consulter les informations publiées par le ministère de la santé tunisienne.
-   </string><string name="contenu_text3">
+    \n  \n
     Vous pouvez consulter la chaine vidéo en streaming.
-    </string><string name="contenu_text4">
+    \n  \n
     Vous pouvez commencer une conversation en visioconférence.
-    </string><string name="contenu_text5">
+    \n  \n
     Vous pouvez passer une réclamation.</string>
 
   <string name="title_activity_viso">VisoActivity</string>
   <!-- Strings used for fragments for navigation -->
   <string name="first_fragment_label">First Fragment</string>
   <string name="second_fragment_label">Second Fragment</string>
-  <string name="next">Next</string>
-  <string name="previous">Previous</string>
+  <string name="next">Suivant</string>
+  <string name="previous">Précédant</string>
   <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
   <string name="button_join">Commencer</string>
+    <string name="yourname">Votre prénom</string>
+  <string name="yoursurname">Votre nom</string>
+  <string name="send">Envoyer</string>
+  <string name="title_tv">TV</string>
+  <string name="title_visio">Visio</string>
+  <string name="title_help">Aide</string>
+  <string name="title_www">www</string>
+  <string name="title_dashboard">Site officiel</string>
+  <string name="title_home">Accueil</string>
 
 </resources>

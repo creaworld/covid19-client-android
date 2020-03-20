@@ -44,12 +44,12 @@
     <string name="hidden_alert">The app has been hidden. To open it again please dial 8722227 (TRACCAR).</string>
     <string name="error_msg_invalid_url">Please enter a valid http:// or https:// URL</string>
     <string name="title_activity_covid">CovidActivity</string>
-    <string name="title_home">Acceuil</string>
-    <string name="title_dashboard">Site web</string>
-    <string name="title_www">WWW</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Website</string>
+    <string name="title_www">www</string>
     <string name="title_tv">TV</string>
     <string name="title_visio">Visio</string>
-    <string name="title_help">Aide</string>
+    <string name="title_help">Help</string>
 
     <string name="title_notifications">Le direct</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -78,5 +78,8 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="instruction_viso">"Appuyez sur le bouton pour commencer la conversation video, il se peut que vous ayez à attendre la disponibilité de votre interlocuteur. "</string>
-    <string name="button_join">Commencer</string>
+    <string name="button_join">Start</string>
+    <string name="yourname">Your name</string>
+    <string name="yoursurname">Votre nom</string>
+    <string name="send">Send</string>
 </resources>
