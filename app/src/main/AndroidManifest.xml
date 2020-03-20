@@ -26,10 +26,10 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+<!--        <activity android:name=".covid19.ui.SendInfoActivity"></activity>-->
         <activity android:name=".covid19.ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -40,7 +40,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".covid19.ui.CovidActivity"
-            android:label="@string/title_activity_covid"></activity>
+            android:label="@string/title_activity_covid" />
 
         <activity-alias
             android:name=".Launcher"
@@ -49,7 +49,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
             </intent-filter>
 
             <meta-data
