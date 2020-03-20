@@ -1,6 +1,8 @@
 package tn.covid19.client.covid19.ui;
 
 import android.os.Bundle;
+import android.view.WindowManager;
+import androidx.core.content.ContextCompat;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -24,5 +26,14 @@ public class CovidActivity extends AppCompatActivity {
     NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
     NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
     NavigationUI.setupWithNavController(navView, navController);
+    initStatusBarColor();
   }
+
+  private void initStatusBarColor(){
+    getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+    getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+    getWindow().setStatusBarColor(ContextCompat.getColor(this,R.color.accent));
+    getWindow().setNavigationBarColor(ContextCompat.getColor(this,R.color.accent));
+  }
+
 }
